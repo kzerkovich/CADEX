@@ -22,6 +22,7 @@ smallest radius, the last - the greatest.
 library.
   8. Implement computation of the total sum of radii using parallel computations (e.g. OpenMP or Intel
 TBB library).
+
 Requirements to the implementation:
   1. The implementation must use virtual methods.
   2. Has neither explicit memory deallocation nor memory leaks.
@@ -29,6 +30,7 @@ Requirements to the implementation:
   4. Containers and sorting must be implemented using STL (C++ Standard Template Library).
   5. The implementation may use constructs of C++11 or higher.
   6. The code must compile with any compiler of your choice (gcc, Visual C++, etc).
+
 Curve definitions:
   - All curves are parametrically defined, i.e. a point is calculated using some C(t) formula.
   - Circle is planar in the plane XoY (i.e. all Z-coordinates are 0) and is defined by its radius.
